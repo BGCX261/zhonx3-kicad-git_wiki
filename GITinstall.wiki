@@ -18,6 +18,7 @@ git clone https://pacabot.XXX@code.google.com/p/zhonx3-kicad/ (changez le XXX se
 
 Vérifier que le dossier "zhonx3-kicad" a bien été créé dans "/home/pacabot/Documents"
 
+
 II - Pour envoyer un nouveau dossier local au GIT distant :
 Mettre dans le dossier local "/home/pacabot/Documents/zhonx3-kicad" le nouveau dossier à mettre en ligne
 
@@ -27,6 +28,7 @@ git commit -a -s
 
 git push origin
 Le mot de passe demandé par le terminal se récupère sur la page https://code.google.com/p/zhonx3-kicad au niveau de "profile" cliquer sur "Settings"
+
 
 III - Pour consulter le contenu du GIT distant
 Sous interface web : se connecter à https://code.google.com/p/zhonx3-kicad/source/browse/
