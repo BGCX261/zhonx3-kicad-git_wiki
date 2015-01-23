@@ -1,0 +1,29 @@
+Installation et paramétrage du client local GIT
+
+Dans le terminal Linux.
+
+sudo apt-get install git-all gitg easygit
+git config --global user.name "Prénom NOM"
+git config --global user.email pacabot.XXX@gmail.com (changez le XXX selon ce que vous avez déclaré)
+
+Il est inutile de créer un dossier "zhonx3-kicad" dans le dossier "Documents" de l'utilisateur. Ce dossier sera automatiquement créé lors de la récupération du dossier distant.
+
+cd /home/pacabot/Documents
+
+I - Récupération du GIT distant :
+Se connecter à google code par https://code.google.com/p/zhonx3-kicad/ et en choisissant "sign-in"
+Récupérer dans la page "Source" le lien pour la commande suivante (option 1)
+
+git clone https://pacabot.XXX@code.google.com/p/zhonx3-kicad/ (changez le XXX selon ce que vous avez déclaré)
+
+Vérifier que le dossier "zhonx3-kicad" a bien été créé dans "/home/pacabot/Documents"
+
+II - Pour envoyer un nouveau dossier local au GIT distant :
+Mettre dans le dossier local "/home/pacabot/Documents/zhonx3-kicad" le nouveau dossier à mettre en ligne
+
+git add Zhonx_III_bt
+
+git commit -a -s
+
+git push origin
+Le mot de passe demandé par le terminal se récupère sur la page https://code.google.com/p/zhonx3-kicad au niveau de "profile" cliquer sur "Settings"
