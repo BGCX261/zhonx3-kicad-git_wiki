@@ -30,4 +30,5 @@ Le mot de passe demandé par le terminal se récupère sur la page https://code.
 
 III - Pour consulter le contenu du GIT distant
 Sous interface web : se connecter à https://code.google.com/p/zhonx3-kicad/source/browse/
+
 Sous interface graphique Linux : lancer gitk (dans terminal)
